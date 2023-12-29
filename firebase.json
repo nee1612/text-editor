@@ -1,8 +1,7 @@
 {
   "hosting": {
     "site": "celebrare",
-
-    "public": "public",
+    "public": "build",
     "rewrites": [
       {
         "source": "**",
