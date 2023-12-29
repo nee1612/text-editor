@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import TextEditor from './TextEditor';
 import EditText from './EditText';
 import {BrowserRouter,Route,Routes } from "react-router-dom";
 
@@ -9,8 +8,7 @@ function App() {
    <>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<TextEditor/>}/>
-      <Route path="/edit" element={<EditText/>}/>
+      <Route path="/" element={<EditText/>}/>
     </Routes>
    </BrowserRouter>
    </>
